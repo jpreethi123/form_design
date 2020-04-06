@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bootstrap Sign in Form with Social Login Buttons</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+<style>
+    .form1
+    {
+        width: 400px;
+        margin: 30px auto;
+    }
+   .text{
+       color:white;
+       text-align: center;
+       padding: 2%;
+       width: 450px;
+   } 
+   a.link1:hover,a.link1:visited,a.link1:link,a.link1:active{
+color:black;
+text-decoration: none;
+ opacity: 0.6;
+}
+.l
+{
+    text-align: left;
+   
+}
+.r{
+  text-align: right;
+  margin-left: 190px;  
+    }
+    .or-seperator {
+        margin: 20px 0 10px;
+        text-align: center;
+        border-top: 1px solid #ccc;
+    }
+    .or-seperator i {
+        padding: 0 10px;
+        background: #f7f7f7;
+        position: relative;
+        top: -11px;
+        z-index: 1;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="form1">
+        <h1 class="bg-primary text-white text">Sign in</h1><br>
+        <form>
+            <div class="form-grop">
+            <div class="input-group">   
+                <input type="text" class="form-control" placeholder="mail@example.com" id="email" name="email" style="width:400px ; height: 50px;">
+                <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+            </div>
+            </div>
+            <br>
+            <div class="form-grop">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="password" id="pwd" name="pwd" style="width:400px ; height: 50px;">
+                    <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                </div>
+                </div><br>
+            <a href="" class="btn btn-primary text">SIGN IN</a><br><br>
+           <p><a href="" class="link1 l">Forgot your Password?</a>
+            <a href="" class="link1 r">Register!</a></p>
+        </form>
+        <div class="or-seperator"><i>OR</i></div><br>
+        <div>
+        <a href="" class="btn btn-primary text"><i class="fa fa-facebook"></i></a>
+    </div>
+    <br>
+    <div>
+        <a href="" class="btn btn-danger text"><i class="fa fa-google"></i></a>
+    </div>
+    <br><br>
+    <a href="" class="btn btn-success text"> EPAM LOGIN </EPAM></i></a>
+    </div>
+</div>
+</body>
